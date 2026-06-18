@@ -74,10 +74,10 @@ macroitems_main -i <instance> -a <algorithm> [-c <capacity>] [-r <result_file>] 
 
 | Flag | Name in paper | Description | Complexity |
 |---|---|---|---|
-| `forest` | **HFMA** | Heap-based Forest Macroitem Algorithm | $O(n \log n)$ |
-| `forest_noheap` | **FMA** | Forest Macroitem Algorithm (linear scan, no heap) | $O(n^2)$ worst case |
-| `inforest` | **HIMA** | Heap-based In-tree Macroitem Algorithm | $O(n \log n)$ |
-| `outforest` | **HOMA** | Heap-based Out-tree Macroitem Algorithm | $O(n \log n)$ |
+| `forest` | **HFMA** | Heap-based Forest Macroitem Algorithm | O(n² log n) |
+| `forest_noheap` | **FMA** | Forest Macroitem Algorithm (linear scan, no heap) | O(n²) worst case |
+| `inforest` | **HIMA** | Heap-based In-tree Macroitem Algorithm | O(n log n) |
+| `outforest` | **HOMA** | Heap-based Out-tree Macroitem Algorithm | O(n log n) |
 | `dinkelbach` | — | Dinkelbach parametric algorithm via LP (HiGHS) | — |
 | `lp` | — | Direct PCKP LP relaxation via HiGHS | — |
 
@@ -88,7 +88,7 @@ macroitems_main -i <instance> -a <algorithm> [-c <capacity>] [-r <result_file>] 
 ```
 CMakeLists.txt              Build configuration
 src/
-  algo_forest.cpp           HFMA: heap-based directed-forest contraction
+  algo_forest.cpp           HFMA: heap-based directed-forest contraction, O(n² log n)
   algo_forest_noheap.cpp    FMA: linear-scan directed-forest contraction
   algo_in_forest.cpp        HIMA: O(n log n) in-tree max-heap algorithm
   algo_out_forest.cpp       HOMA: O(n log n) out-tree min-heap algorithm
