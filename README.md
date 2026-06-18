@@ -125,12 +125,13 @@ scripts/
 
 ## Reproducing the Benchmarks
 
-**Step 1 — Generate instances** (or unzip the provided archives):
+**Step 1 — Generate instances** (or download the pre-built archives from
+[**macroitems-data releases**](https://github.com/fabiofurini/macroitems-data/releases/tag/v1.0)):
 ```bash
 python3 scripts/gen_instances.py
 ```
 This creates `instances/forest/`, `instances/inforest/`, `instances/outforest/`
-with 20 880 instances total (6 classes × 4 densities × 10 seeds × 87 sizes).
+with 20,880 instances total (6 classes × 4 densities × 10 seeds × 87 sizes).
 
 **Step 2 — Run the benchmarks:**
 ```bash
