@@ -2,8 +2,7 @@
 
 Implementation of the algorithms described in:
 
-> **"Macroitems: Optimal LP Solutions of the Precedence Constrained Knapsack Problem"**  
-> Submitted to *INFORMS Mathematics of Operations Research*
+> **"Optimal Macroitem Sequences in the Precedence Constrained Knapsack Problem"**
 
 ---
 
