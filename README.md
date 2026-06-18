@@ -2,7 +2,8 @@
 
 Implementation of the algorithms described in:
 
-> **"Optimal Macroitem Sequences in the Precedence Constrained Knapsack Problem"**
+> **"Optimal Macroitem Sequences in the Precedence Constrained Knapsack Problem"**  
+> Valerio Dose, Fabio Furini, Marco Locatelli
 
 ---
 
