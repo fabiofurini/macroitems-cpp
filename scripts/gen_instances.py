@@ -25,7 +25,7 @@ Arc density rho in {0.3, 0.6, 0.9, 1.0}  <->  sparse / medium / dense / tree
   (rho=1.0 always yields a single spanning tree over all n nodes)
 
 Sizes:
-  10 20 30 ... 100  200 300 ... 1000  10000 20000 ... 50000
+  100 200 300 ... 1000  10000 20000 ... 100000
 
 Instances per combination: 10 independent seeds.
 
@@ -58,7 +58,7 @@ NEGATIVE_PROFIT_RATE = 0.25
 DENSITIES = {"sparse": 0.3, "medium": 0.6, "dense": 0.9, "tree": 1.0}
 
 SIZES = [
-    10, 20, 30, 40, 50, 60, 70, 80, 90, 100,
+    100,
     200, 300, 400, 500, 600, 700, 800, 900, 1000,
     10000, 20000, 30000, 40000, 50000,
     60000, 70000, 80000, 90000, 100000,
